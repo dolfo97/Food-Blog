@@ -16,7 +16,7 @@ class Edit extends React.Component {
           <input type='submit' value='Update Recipe' />
           
         </form>
-        
+         
 
   
       </Default>
