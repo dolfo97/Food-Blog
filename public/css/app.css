@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Righteous');
+
+body {
+  background: url(https://cdn.pixabay.com/photo/2015/07/28/22/11/wheat-865152_960_720.jpg);
+  margin: 0;
+  background-size: cover;
+  font-family: 'Comfortaa', cursive;
+  background-repeat: no-repeat;
+}
+
+.Edit {
+  text-align: left;
+  padding: 1px;
+  margin: 1;
+}
+ nav {
+  text-align: right;
+  font-size: 15px;
+
+}
+h1 {
+  font-family: 'Righteous', cursive;
+  /* background: lightcyan; */
+  margin:0; 
+  margin-bottom: .5em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+a {
+  color: red;
+  background: lightcyan;
+  background-size: 1px;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.5em;
+  margin: 50px;
+  text-align: right;
+  padding: 1px;
+  justify-content: space-between 10px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: ghostwhite;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: black;
+}
+
+input[type=text] {
+  padding: .3em;
+}
+
+input[type=submit] {
+  padding: .3em;
+  color: black;
+  font-size: 1em;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 15px;
+  font-size: 15px;
+}
+ 
+.newRecipe {
+  border: 10px;
+  padding: 20px;
+}
