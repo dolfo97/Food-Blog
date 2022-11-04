@@ -12,7 +12,7 @@ class Show extends React.Component {
           <h3> Step by Step Intructions:</h3>  <br />
           <p>{description}</p>
           <h3> Ingredients:</h3> <br />
-          <p>{ingredients}</p> <br />
+          <p>{ingredients}</p> <br /> 
           <h3>Cuisine:</h3> 
           <p>{category}</p> <br />
         </div>
