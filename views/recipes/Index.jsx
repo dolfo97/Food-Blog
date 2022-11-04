@@ -7,7 +7,7 @@ class Index extends React.Component {
     const { recipes } = this.props
     return (
       <Default title='Trending Recipes'>   
-        <ul>
+        <ul> 
           {
                         recipes.map((recipe) => {
                           const { name, image } = recipe
