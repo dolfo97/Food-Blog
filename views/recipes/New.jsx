@@ -2,14 +2,14 @@ const React = require('react')
 const Default = require('../layouts/Default.jsx')
 
 class New extends React.Component {
-  render () { 
+  render () {
     return (
       <Default title='New Recipe'>
         <form method='POST' action='/recipes'>
           <div className='newRecipe'>
             <label for='name' className='form-label'>Recipe Name:</label>
             <input type='text' name='name' id='name' className='form-control' required />
-          </div>  
+          </div>
           <div className='newRecipe'>
             <label for='description' className='form-label'>Description:</label>
             <textarea name='description' id='description' className='form-control' />
@@ -35,9 +35,9 @@ class New extends React.Component {
             <input type='file' class='form-control' name='image' accept='image' />
           </div>
           <div className='newRecipe'>
-          <input type='submit' value='Submit Form' />
+            <input type='submit' value='Submit Form' />
           </div>
-         
+
         </form>
       </Default>
     )

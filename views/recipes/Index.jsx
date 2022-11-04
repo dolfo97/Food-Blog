@@ -6,8 +6,8 @@ class Index extends React.Component {
   render () {
     const { recipes } = this.props
     return (
-      <Default title='Trending Recipes'>   
-        <ul> 
+      <Default title='Trending Recipes'>
+        <ul>
           {
                         recipes.map((recipe) => {
                           const { name, image } = recipe
@@ -15,13 +15,12 @@ class Index extends React.Component {
                             <li key={recipe._id}>
                               <a href={`/recipes/${recipe._id}`}>
                                 {name}
-                              </a> 
+                              </a>
                               <div>
-                              
+
                                 {/* <img src='/images/pepper.png'></img> */}
                               </div>
-                              
-                      
+
                               <form method='POST' action={`/recipes/${recipe._id}?_method=DELETE`}>
                                 <input type='submit' value={`Delete ${name} `} />
                               </form>
@@ -35,8 +34,6 @@ class Index extends React.Component {
     )
   }
 }
-
-
 
 // function Popular() {
 //   const [popular, setPopular] = useState([])
@@ -52,7 +49,7 @@ class Index extends React.Component {
 //     setPopular(data.recipes)
 //   }
 
-//   return ( 
+//   return (
 //   <div>
 //     {popular.map((recipe) => {
 //       return(
@@ -64,6 +61,5 @@ class Index extends React.Component {
 //     </div>
 //   )
 // }
-
 
 module.exports = Index

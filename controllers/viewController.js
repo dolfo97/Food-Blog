@@ -23,4 +23,4 @@ const viewController = {
 
 }
 
-module.exports = viewController 
+module.exports = viewController

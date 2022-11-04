@@ -3,7 +3,7 @@ const React = require('react')
 class Default extends React.Component {
   render () {
     const { recipe, title } = this.props
-    return ( 
+    return (
       <html>
         <head>
           <title>{this.props.title}</title>
@@ -15,8 +15,9 @@ class Default extends React.Component {
             <a href='/recipes'>HomePage</a> <br />
             <a href='/recipes/new'>Upload New Recipe</a> <br />
             <div className='Edit'>
-            
-            {recipe ? <a href={`/recipes/${recipe._id}/edit`}> Edit Recipe </a> : ''}</div> <br />
+
+              {recipe ? <a href={`/recipes/${recipe._id}/edit`}> Edit Recipe </a> : ''}
+            </div> <br />
             {/* {recipe ? <a href={`/recipes/${recipe._id}`}>{recipe.name} Show Page</a> : ''} */}
           </nav>
           <h1>

@@ -2,7 +2,23 @@
 A CRUD web app that lets you see different dish recipes and lets you add your own. 
 
 -------
+# Technologies Used: 
+- Express
+- React
+- Node.js
+- Mongoose
+- JavaScript
+- CSS
+- MongoDb
+- Google Images
+- HTML
 
+----------
+
+# Trello Board
+Link : https://trello.com/invite/b/bk82SdfQ/ATTI08791f8638c92ffaec45891ef33081a8A47C0300/food-blog
+
+----------------------------
 
 ## CRUD:
 #

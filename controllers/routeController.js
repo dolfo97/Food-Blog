@@ -23,4 +23,3 @@ router.get('/:id/edit', dataController.show, viewController.edit)
 router.get('/:id', dataController.show, viewController.show)
 
 module.exports = router
- 

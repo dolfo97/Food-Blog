@@ -42,7 +42,7 @@ const dataController = {
       }
     })
   },
-  // Create 
+  // Create
   create (req, res, next) {
     req.body.readyToEat = req.body.readyToEat === 'on'
     Recipe.create(req.body, (err, createdRecipe) => {
