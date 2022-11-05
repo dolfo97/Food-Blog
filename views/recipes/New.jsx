@@ -4,6 +4,8 @@ const Default = require('../layouts/Default.jsx')
 class New extends React.Component {
   render () {
     return (
+      <div className='container'>
+      
       <Default title='New Recipe'>
         <form method='POST' action='/recipes'>
           <div className='newRecipe'>
@@ -15,8 +17,7 @@ class New extends React.Component {
             <textarea name='description' id='description' className='form-control' />
           </div>
           <div className='newRecipe'>
-            <label for='name' class='form-label'>Ingredients:</label><br />
-            <small>EXAMPLE: Flour, Eggs</small>
+            <label for='name' class='form-label'>Ingredients:  <small>EXAMPLE: Flour, Eggs</small></label>
             <textarea name='ingredients' className='form-control' />
           </div>
           <div className='newRecipe'>
@@ -40,6 +41,7 @@ class New extends React.Component {
 
         </form>
       </Default>
+      </div>
     )
   }
 }

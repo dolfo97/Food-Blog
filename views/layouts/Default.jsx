@@ -11,13 +11,16 @@ class Default extends React.Component {
           <link rel='images' href='/images' />
         </head>
         <body>
-          <nav>
-            <a href='/recipes'>HomePage</a> <br />
-            <a href='/recipes/new'>Upload New Recipe</a> <br />
-            <div className='Edit'>
 
-              {recipe ? <a href={`/recipes/${recipe._id}/edit`}> Edit Recipe </a> : ''}
-            </div> <br />
+          <nav>
+          <div className='container'>
+            <ul>
+              <li><a href='/recipes'>HomePage</a></li>
+              <li><a href='/recipes/new'>Upload New Recipe</a></li>
+              <li>{recipe ? <a href={`/recipes/${recipe._id}/edit`}> Edit Recipe </a> : ''}</li>
+            </ul>
+          </div>
+
             {/* {recipe ? <a href={`/recipes/${recipe._id}`}>{recipe.name} Show Page</a> : ''} */}
           </nav>
           <h1>

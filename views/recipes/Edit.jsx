@@ -5,6 +5,8 @@ class Edit extends React.Component {
   render () {
     const { name, _id, description, ingredients, category, image } = this.props.recipe
     return (
+      <div className='container'>
+
       <Default title={`${name} Edit Page`} recipe={this.props.recipe}>
 
         <form method='POST' action={`/recipes/${_id}?_method=PUT`}>
@@ -18,6 +20,7 @@ class Edit extends React.Component {
         </form>
 
       </Default>
+      </div>
 
     )
   }
