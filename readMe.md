@@ -5,15 +5,6 @@ A CRUD web app that lets you see different dish recipes and lets you add your ow
 # Technologies Used: 
 Express, Node.js, Mongoose, JavaScript, CSS, MongoDb, HTML
 
-----------
-
-## Getting Started:
-- TBD
-- TBD
-- TBD
-- TBD
-- TBD
-
 ------------------------------------------------------------
 # Screenshots
 
